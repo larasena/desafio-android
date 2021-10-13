@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #84E1AD;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-indent: 1.5em;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.header {
+  background: linear-gradient(#3BD17F, #1A5C38);
+  color: #F2FAF5;
+}
+.titulo {
+  padding-top: 20px;
+  text-align: center;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+}
+.menu ul li {
+  display: inline;
+}
+.menu a {
+  text-decoration: none;
+  color: #F2FAF5;
+  padding-left: 20px;
+}
+
+
+.conteudo {
+  width: 860px;
+  background-color: #F2FAF5;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px grey;
+  border-radius: 0 0 10px 10px;
+}
+.historia {
+  padding-left: 10px;
+}
+@font-face {
+  font-family: 'idroid';
+  src: url('../fontes/idroid.otf');
+}
+.historia h1 {
+  padding: 20px;
+}
+.historia h2 {
+  background: linear-gradient( to right, #CDEEDB,#F2FAF5);
+}
+.historia h1, h2 {
+  font-family: 'idroid';
+  color: #185A36;
+}
+.historia img {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video {
+  background: #1A5C38;
+  padding: 20px;
+
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+}
+
+.extra {
+  width: 860px;
+  background-color: #C5EBD6;
+  width: 830px;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px grey;
+  border-radius: 10px;
+}
+.extra h3 {
+  color: #F2FAF5;
+  background: #2FA866;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+.extra p {
+  padding-left: 10px;
+}
+
+.nomesandroid ol li {
+  list-style: circle;
+  width: 50%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.copy {
+  background: #1A5C38;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  color: #F2FAF5;
+}
